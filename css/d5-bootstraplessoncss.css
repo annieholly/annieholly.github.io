@@ -4,6 +4,9 @@
 	top: 50px;
 	height:700px;
 	background-image:url("http://media.moddb.com/images/groups/1/9/8215/purple-nebula.jpg");
-	color: white;	
 
+}
+
+h1 {
+	color: white;
 }
