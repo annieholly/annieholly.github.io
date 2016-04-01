@@ -1,6 +1,6 @@
-var visitorName;
+// var visitorName;
 
-visitorName = prompt('Welcome to my page! What\'s your name?');
+// visitorName = prompt('Welcome to my page! What\'s your name?');
 
-document.querySelector('h1').textContent = "Hello " + visitorName;
+// document.querySelector('h1').textContent = "Hello " + visitorName;
 
