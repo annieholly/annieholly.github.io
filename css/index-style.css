@@ -1,0 +1,68 @@
+* {
+/*	outline: 2px dotted red; */
+	font-family: arial;
+}
+#container {
+	width: 1280px; 
+	margin: 0 auto; 
+}
+	#picture {
+		width: 1280px;
+		height: 600px;
+		background-image: url("Assets/splash_Outdoors.jpg");
+	}
+		#navBar {
+			color: #ffffff;
+			display: inline-block; /*Why do we need this? */
+			font-size: 30px;
+			font-weight: bold; 
+			/*text-align: right*/
+			margin-left: 775px; 
+			padding-top: 15px; 
+		}
+			#navBar li {
+				list-style-type: none;
+				display: inline-block;
+				margin-left: 20px; 
+			}
+				#navBar li a {
+					text-decoration: none;
+					color: #ffffff;
+				}
+		h1 {
+			color: #ffffff;
+			font-size: 76px;
+			font-weight: bold; 
+			text-align: center; 
+		}
+		p {
+			width: 265px;
+			height: 55px;
+			font-size: 30px;
+			color: #ffffff;
+			background-color: #f16521;
+			margin: 0 auto; 
+			text-align: center;
+			padding-top: 12px; 
+		}
+
+#buttons {
+	width: 1280px;
+	height: 300px; 
+	display: inline-block;
+	padding-top: 100px; 
+}
+
+	#money, #bulb, #ribbon {
+		width: 415px; 
+		height: 300px; 
+		display: inline-block;
+		text-align: center;
+		vertical-align: top; 
+		font-size: 24px; 
+		font-weight: bold; 
+	}
+	#money {
+		margin-left: 12px;
+	}
+

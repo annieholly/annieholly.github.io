@@ -1,0 +1,80 @@
+* {
+/*	outline: 2px dotted red;*/
+	font-family: arial;
+}
+#container {
+	width: 1280px;
+	margin: 0 auto;   
+}
+	#header {
+		width: 1280px;
+		height: 215px; 
+		background-color: #5d5d5d; 
+	}
+		#navBar {
+			color: #ffffff;
+			display: inline-block; /*Why do we need this? */
+			font-size: 30px;
+			font-weight: bold; 
+			/*text-align: right; ask speros why this doesn't work*/
+			margin-left: 775px; 
+			padding-top: 15px; 
+			height: 0px; 
+		}
+			#navBar li {
+				position: relative;
+				list-style-type: none;
+				display: inline-block;
+				margin-left: 20px; 
+				margin-bottom: 10px; 
+			}
+				#navBar li a {
+					text-decoration: none;
+					color: #ffffff;
+				}
+		h1 {
+			font-size: 76px;
+			font-weight: bold; 
+			margin-top: 0px; 
+			margin-left: 70px;
+			color: #ffffff;
+			padding-bottom: 0px;
+		}
+	#body {
+		width: 1280px;
+		height: 670px; 
+	}
+		#picture {
+			display: inline-block;
+			margin-top: 75px; 
+			margin-left: 75px;
+		}
+
+		#content {
+			vertical-align: top; 
+			display: inline-block;
+			width: 375px; 
+			height: 372px;
+			margin-left: 50px; 
+			margin-top: 115px; 	
+		}
+			#content h4 {	
+				display: inline-block;
+				vertical-align: top;
+				font-size: 24px; 
+				font-weight: bold; 
+			}
+
+			#content p {
+				margin-top: 0px; 
+			}
+	#contact p {
+		width:  265px;
+		height: 45px; 
+		background-color: #f16521;
+		font-size: 30px; 		
+		color: #ffffff; 
+		text-align: center;
+		margin-left: 910px; 
+		padding-top: 5px; 
+	}
